@@ -1,0 +1,28 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-googlemaps": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-googlemaps/www/googlemaps-cdv-plugin.js",
+            "id": "cordova-plugin-googlemaps.cordova-plugin-googlemaps",
+            "pluginId": "cordova-plugin-googlemaps",
+            "clobbers": [
+                "cordova-plugin-googlemaps"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-googlemaps": "1.4.0"
+    }
+}
